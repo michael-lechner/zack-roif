@@ -1,6 +1,20 @@
 extends layout
 
 block content
+    ul#nav
+        li
+            a(href="#intro")
+                img(src="images/dot.png")
+        li
+            a(href="#second")
+                img(src="images/dot.png")
+        li
+            a(href="#third")
+                img(src="images/dot.png")
+        li
+            a(href="#fourth")
+                img(src="images/dot.png")
+
     #intro
         .story
         .float-left
@@ -14,7 +28,10 @@ block content
             h2 michael lechner
             p did I actually manage to figure this shit out
 
-    #intro
+    #third
+        video(width="1280px" controls)
+            source(src="/videos/close-encounter.mp4" type="video/mp4")
+     #fourth
         .story
         .float-left
             h2 zack roif
