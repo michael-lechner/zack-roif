@@ -22,7 +22,7 @@ p {
 #nav {
   list-style: none;
   position: fixed;
-  right: 20px;
+  right: 100px;
 }
 #nav li {
   margin: 0 30 15px 0;
@@ -50,6 +50,13 @@ p {
 }
 #third video {
   margin: 0 auto;
+}
+#fourth {
+  background: url("/images/seven.jpg") 50% 0 no-repeat fixed;
+  color: #f00;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
 }
 .story {
   margin: 0 auto;
