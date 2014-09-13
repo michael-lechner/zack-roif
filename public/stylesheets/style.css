@@ -1,7 +1,48 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  min-width: 980px;
+  padding: 0;
 }
-a {
-  color: #00b7ff;
+p {
+  margin: 0 0 20px 0;
+}
+.float-left {
+  float: left;
+  margin: 0 0 0 20px;
+}
+.float-right {
+  float: right;
+  margin: 0 0 0 20px;
+}
+#header,
+#intro,
+#second {
+  width: 100%;
+}
+#intro {
+  background: url("/images/seven.jpg") 50% 0 no-repeat fixed;
+  color: #f00;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+#second {
+  background: url("/images/six.jpg") 50% 0 no-repeat fixed;
+  color: #f00;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+.story {
+  margin: 0 auto;
+  min-width: 980px;
+  overflow: auto;
+  width: 980px;
+}
+.story .float-left,
+.story .float-right {
+  padding: 100px 0 0 0;
+  position: relative;
+  width: 350px;
 }
